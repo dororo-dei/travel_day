@@ -58,7 +58,8 @@ nav a {
   display: inline-block;
 }
 /* 공통영역 */
-section {
+section,
+main {
   width: 50%;
   margin: 40px auto;
   /*background-color: yellowgreen;*/
@@ -116,4 +117,31 @@ footer {
 }
 footer p {
   margin: 10px 0;
+}
+/* jeju.html */
+.intro img {
+  width: 100%;
+}
+.intro h2 {
+  margin: 24px 0;
+  color: #1caccf;
+}
+.intro p {
+  margin: 16px 0;
+}
+.intro {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.intro hr {
+  border-top: 1px solid #eee;
+  margin-bottom: 10px;
+}
+/* 여행 정보 */
+.info {
+  background-color: #a9dbe7;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
