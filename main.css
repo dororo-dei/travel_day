@@ -1,0 +1,119 @@
+* {
+  /* padding: 0; */
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+body {
+  background-color: #cdfafd;
+}
+/* 헤더 */
+header {
+  text-align: center;
+  background-color: #1caccf;
+  color: #fff;
+  padding: 20px;
+}
+/* 로고 */
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+/* 네비게이션 (메뉴) */
+nav {
+  text-align: center;
+  background-color: #fff;
+  padding: 15px;
+}
+/* 메뉴 */
+nav a {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* 메인 배너 */
+.hero {
+  text-align: center;
+  background-color: #a4e9fa;
+  padding: 60px;
+}
+.hero h1 {
+  font-size: 36px;
+}
+.hero p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.button {
+  background-color: #1caccf;
+  padding: 12px 24px;
+  color: #fff;
+  border-radius: 8px;
+  display: inline-block;
+}
+/* 공통영역 */
+section {
+  width: 50%;
+  margin: 40px auto;
+  /*background-color: yellowgreen;*/
+}
+section h2 {
+  margin-bottom: 12px;
+  color: #1caccf;
+  font-weight: 700;
+}
+.travel h2 {
+  color: #222;
+  margin: 20px 0;
+}
+hr {
+  border: 0;
+  border-top: 3px solid #1caccf;
+}
+.travel {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.travel img {
+  width: 100%;
+}
+.travel h3 {
+  color: #1caccf;
+}
+.travel p {
+  padding: 15px 0;
+}
+.travel ul {
+  margin-bottom: 15px;
+}
+/* 여행 준비 */
+.check_line {
+  border: 0;
+  border-top: 3px dashed #ff9800;
+}
+/* 준비 리스트 */
+.check {
+  background-color: #fff;
+  padding: 20px;
+}
+.check li {
+  margin: 10px;
+}
+/* 푸터 */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+footer p {
+  margin: 10px 0;
+}
